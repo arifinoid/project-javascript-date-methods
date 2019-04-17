@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-  padding-top: 70px;
+  padding-top: 30px;
   color: #eee;
   font-weight: 400;
   font-size: 40px;
@@ -58,5 +58,6 @@ h1 {
 #today {
   position: fixed;
   bottom: 0;
+  right: 0;
 }
 /* ------------------------------- */
