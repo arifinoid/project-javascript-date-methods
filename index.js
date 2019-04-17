@@ -29,3 +29,5 @@ let fasting = setInterval(function() {
     document.getElementById("countdown").innerHTML = "Happy Ramadhan";
   }
 }, 1000);
+
+// -------------------------------

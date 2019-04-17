@@ -9,38 +9,54 @@ body {
   text-align: center;
   font-family: sans-serif;
   font-weight: 100;
+  background-color: black;
+  color: #eee;
+  background-image: url(/image/night-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -50px;
 }
 
 h1 {
-  font-weight: 100;
+  padding-top: 70px;
+  color: #eee;
+  font-weight: 400;
   font-size: 40px;
   margin: 40px 0px 20px;
 }
 
 #clockdiv {
+  margin-top: 50px;
   font-family: sans-serif;
   color: #fff;
   display: inline-block;
   font-weight: 100;
   text-align: center;
-  font-size: 30px;
+  font-size: 100px;
 }
 
 #clockdiv > div {
   padding: 10px;
-  border-radius: 3px;
-  background: #00bf96;
+  border-radius: 15px;
+  background: #dcdf3657;
   display: inline-block;
 }
 
 #clockdiv div > span {
   padding: 15px;
-  border-radius: 3px;
-  background: #00816a;
+  border-radius: 100px;
+  background: #817800;
   display: inline-block;
 }
 
 .smalltext {
-  padding-top: 5px;
-  font-size: 16px;
+  padding-top: 15px;
+  font-size: 32px;
 }
+
+#today {
+  position: fixed;
+  bottom: 0;
+}
+/* ------------------------------- */
